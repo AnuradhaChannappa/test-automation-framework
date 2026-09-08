@@ -3,3 +3,11 @@ node_modules/
 test-results/
 playwright-report/
 target/
+LEARNINGS.md
+
+
+# Playwright
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
