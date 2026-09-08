@@ -1,5 +1,7 @@
 # Cross-Platform Test Automation Framework
 
+![Playwright Tests](https://github.com/AnuradhaChannappa/test-automation-framework/actions/workflows/playwright.yml/badge.svg)
+
 A cross-platform test-automation framework demonstrating **web, API, cross-browser, CI, environment configuration and secrets management** — built with **Playwright + TypeScript**, with a **Java module** and **native mobile (Appium)** on the roadmap.
 
 Built to show framework *design* (not just scripts): Page Objects, data-driven testing, environment switching, secure credential handling, and CI-ready parallel execution.
