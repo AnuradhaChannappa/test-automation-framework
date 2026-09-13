@@ -14,7 +14,7 @@ test.describe('Valid login falls on the products page', () => {
         await loginPage.goto();
     });
 
-    test('Login test', async ({page}) => {
+    test('Login test @regression', async ({page}) => {
         await loginPage.login(`${process.env.WEB_USER}`, `${process.env.WEB_PASSWORD}`);
         await expect(page).toHaveURL(/inventory/);
         await expect(productsPage.title).toHaveText('Products');

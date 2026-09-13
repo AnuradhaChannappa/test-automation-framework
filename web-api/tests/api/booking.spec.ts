@@ -2,7 +2,7 @@ import {  test, expect } from '@playwright/test';
 import { apiBaseurl } from '../../config/env';
 
 test.describe('Booking API Tests', () => {
-    test('Create Booking @createBooking', async ({ request }) => {
+    test('Create Booking @createBooking @smoke', async ({ request }) => {
         const response = await request.post(`${apiBaseurl}/booking`, {
             data: {
                 firstname: 'John',
